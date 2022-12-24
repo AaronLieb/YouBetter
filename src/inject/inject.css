@@ -3,22 +3,24 @@
  **/
 
 div#header {
+  background: none;
   border-bottom: none !important;
 }
 
-div#header > a {
-  opacity: 0.4;
-}
 
-div#header:nth-child(1) {
+div#header > div:nth-child(1) {
   opacity: 0;
 }
 
-div#header:nth-child(3) > div {
+div#header > div:nth-child(1) > a {
+  opacity: 0.4;
+}
+
+div#header > div:nth-child(2) > div > div {
   box-shadow: none;
 }
 
-div#header:nth-child(5) > div > div > {
+div#header > div:nth-child(2) > div:nth-child(2) > div > div > div {
   background-color: none;
   border: none;
 }
