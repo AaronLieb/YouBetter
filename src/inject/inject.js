@@ -11,3 +11,6 @@ chrome.extension.sendMessage({}, function(response) {
 	}
 	}, 10);
 });
+
+
+document.documentElement.setAttribute("youbetter", "true");
