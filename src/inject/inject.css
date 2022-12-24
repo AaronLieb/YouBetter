@@ -1,3 +1,24 @@
 /**
  * Place your custom CSS styles here.
  **/
+
+div#header {
+  border-bottom: none !important;
+}
+
+div#header > a {
+  opacity: 0.4;
+}
+
+div#header:nth-child(1) {
+  opacity: 0;
+}
+
+div#header:nth-child(3) > div {
+  box-shadow: none;
+}
+
+div#header:nth-child(5) > div > div > {
+  background-color: none;
+  border: none;
+}
